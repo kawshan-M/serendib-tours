@@ -1,0 +1,30 @@
+/* GOOGLE FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* Margin and padding reset */
+/* Font Family */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+
+}
+body{
+  background: radial-gradient(circle, #322538, #1f1f1f);
+}
+.page-editor {
+  position: fixed !important;
+  border-radius: 10px !important;
+  border-color: rgb(47, 9, 116) !important;
+  display: inline !important;
+  bottom: 10px !important;
+  right: 20px !important;
+  padding: 10px;
+
+} 
+
+h1{
+  color: #a16aba !important;
+  font-size: 40px !important;
+}

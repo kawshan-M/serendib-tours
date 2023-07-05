@@ -1,0 +1,56 @@
+/* Student - 2 */
+.nav-header {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  padding: 15px 30px 10px 30px !important;
+  background-color: #301e49 !important;
+}
+.nav-li,
+.nav-a,
+.nav-button {
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  color: #ecf0f1 !important;
+  text-decoration: none !important;
+}
+
+.logo {
+  cursor: pointer !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  position: relative;
+  width: 4rem;
+  border-radius: 30px;
+}
+
+.nav_links {
+  list-style: none !important;
+}
+
+.nav_links .nav-li {
+  display: inline-block !important;
+  padding: 0px 20px !important;
+}
+
+.nav_links .nav-li .nav-a {
+  transition: all 0.3s ease 0s !important;
+}
+
+.nav_links .nav-li .nav-a:hover {
+  color: #0088a9 !important;
+}
+
+.nav-button {
+  padding: 10px 30px;
+  background-color: #023188 !important;
+  border: none !important;
+  border-radius: 50px !important;
+  cursor: pointer !important;
+  transition: all 0.4s !important;
+  justify-content: center !important;
+}
+
+.nav-button:hover {
+  background-color: #0c3f9e !important;
+}

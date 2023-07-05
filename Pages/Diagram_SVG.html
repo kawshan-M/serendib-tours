@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sitemap</title>
+
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Style -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/Diagram_SVG.css">
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="nav-placeholder"> </div>
+    <h1>Site Map<h1>
+        <svg id="sitem" height="500" width="1200">
+			<g id="Id1">
+				<rect x="520" y="60" height="50" width="150" stroke="#019267" fill="#00C897" stroke-width="3" cursor="pointer" />
+				<text fill="black" font-size="20" x="595" y="93" font-family="Arial" text-anchor="middle" cursor="pointer">Presentation</text>
+			</g>
+			<g id="Id2" >
+				<rect x="520" y="130" height="50" width="150" stroke="#019267" fill="#00C897" stroke-width="3" cursor="pointer" />
+			    <text fill="black" font-size="20" x="595" y="160" font-family="Arial" text-anchor="middle" cursor="pointer">Home</text>
+			</g>
+			<g id="Id3" >
+				<rect x="10" y="270" height="50" width="150" stroke="#019267" fill="#00C897" stroke-width="3" cursor="pointer" />
+			    <text fill="black" font-size="20" x="80" y="300" font-family="Arial" text-anchor="middle" cursor="pointer">Gallery</text>
+			</g>
+			<g id="Id4" >
+				<rect x="220" y="270" height="50" width="150" stroke="#019267" fill="#00C897" stroke-width="3" cursor="pointer" />
+			    <text fill="black" font-size="20" x="290" y="300" font-family="Arial" text-anchor="middle" cursor="pointer">store</text>
+			</g>
+			<g id="Id5" >
+				<rect x="420" y="270" height="50" width="150" stroke="#019267" fill="#00C897" stroke-width="3" cursor="pointer" />
+				<text fill="black" font-size="20" x="490" y="300" font-family="Arial" text-anchor="middle" cursor="pointer">Quiz</text>
+			</g>
+			<g id="Id6" >
+				<rect x="620" y="270" height="50" width="150" stroke="#019267" fill="#00C897" stroke-width="3" cursor="pointer" />
+				<text fill="black" font-size="20" x="690" y="300" font-family="Arial" text-anchor="middle" cursor="pointer">Sitemap</text>
+			</g>
+			<g id="Id7" >
+				<rect x="820" y="270" height="50" width="170" stroke="#019267" fill="#00C897" stroke-width="3" cursor="pointer" />
+				<text fill="black" font-size="20" x="900" y="300" font-family="Arial" text-anchor="middle" cursor="pointer">Student details</text>
+			</g>
+			<g id="Id8" >
+				<rect x="1020" y="270" height="50" width="150" stroke="#019267" fill="#00C897" stroke-width="3"  cursor="pointer"/>
+				<text fill="black" font-size="20" x="1095" y="300" font-family="Arial" text-anchor="middle" cursor="pointer">Contact</text>
+			</g>
+		    <g id="groupId9" >
+				<line id="shapeId3" stroke="black" stroke-width="4" x1="595" y1="110" x2="595" y2="130"></line>
+				<line id="shapeId3" stroke="black" stroke-width="4" x1="595" y1="180" x2="595" y2="220"></line>
+				<line id="shapeId2" stroke="black" stroke-width="4" x1="90" y1="270" x2="90" y2="220"></line>
+				<line id="shapeId3" stroke="black" stroke-width="4" x1="300" y1="270" x2="300" y2="220"></line>
+				<line id="shapeId3" stroke="black" stroke-width="4" x1="500" y1="270" x2="500" y2="220"></line>
+				<line id="shapeId3" stroke="black" stroke-width="4" x1="700" y1="270" x2="700" y2="220"></line>
+				<line id="shapeId3" stroke="black" stroke-width="4" x1="890" y1="270" x2="890" y2="220"></line>
+				<line id="shapeId3" stroke="black" stroke-width="4" x1="1100" y1="270" x2="1100" y2="220"></line>
+				<line id="shapeId2" stroke="black" stroke-width="4" x1="88" y1="220" x2="1102" y2="220"></line>
+			</g>
+		</svg>
+        <button class="page-editor" onclick="location.href='./Page_editor_student4.html'">
+            Page Editor
+        </button>
+    <script>
+            document.getElementById("Id1").
+            addEventListener("click", function() {
+                document.location.href="Presentation_Page.html";
+        });
+        document.getElementById("Id2").
+            addEventListener("click", function() {
+                document.location.href="../index.html";
+        });
+        document.getElementById("Id3").
+            addEventListener("click", function() {
+                document.location.href="Thumbnail_images.html";
+        });
+        document.getElementById("Id4").
+            addEventListener("click", function() {
+                document.location.href="Buy_products.html";
+        });
+        document.getElementById("Id5").
+            addEventListener("click", function() {
+                document.location.href="Quiz.html";
+        });
+        document.getElementById("Id6").
+            addEventListener("click", function() {
+                document.location.href="Diagram_SVG.html";
+        });
+        document.getElementById("Id7").
+            addEventListener("click", function() {
+                document.location.href="Student_Details.html";
+        });
+        document.getElementById("Id8").
+            addEventListener("click", function() {
+                document.location.href="Query_Form.html";
+        });
+    </script>
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("../Components/navbar.html");
+        });
+    </script>
+</body>
+
+</html>

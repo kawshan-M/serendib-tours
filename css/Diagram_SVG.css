@@ -1,0 +1,25 @@
+h1 {
+  text-align: center;
+}
+
+#sitem g:hover polyline,
+#sitem g:hover line {
+  fill: none;
+  stroke-width: 2;
+  stroke: Gold;
+}
+
+#sitem g:hover g text,
+#sitem g:hover text {
+  font-weight: bold;
+}
+
+#sitem g:hover polygon,
+#sitem g:hover rect,
+#sitem g:focus polygon,
+#sitem g:focus rect {
+  fill: hsla(24, 20%, 50%, 0.3);
+  stroke: black;
+  stroke-width: 2;
+}
+

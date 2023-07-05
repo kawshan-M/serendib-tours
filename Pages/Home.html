@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home</title>
+
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Style -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="nav-placeholder"> </div>
+    <div class="container">
+        <img src="../images/home_slider1.jpg" class="slider" alt="">
+        <div class="centered ">
+            <h1 class="home_text top">discover</h1>
+            <h1 class="home_text">Sri Lanka</h1><br>
+            <div class="button home_slider_button">
+                <button class="button button_bcg"><a href="./Thumbnail_images.html">Landmarks</a></button>
+            </div>
+            <div class="button home_slider_button">
+                <button class="button button_bcg"><a href="./Quiz.html">Take a quiz
+                        now</a></button>
+            </div>
+            <div class="button home_slider_button">
+                <button class="button button_bcg"><a href="./Buy_products.html">Book a Tour</a></button>
+            </div><br><br>
+            <div class="button home_slider_button">
+                <button class="button button_bcg"><a href="./Additional_page.html">Learn more about Sri Lanka</a></button>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("../Components/navbar.html");
+        });
+    </script>
+
+</body>
+
+</html>
